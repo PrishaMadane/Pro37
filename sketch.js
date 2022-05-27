@@ -4,7 +4,8 @@ var score;
 
 function preload () {
 backImage = loadImage("bg.png");
-player_running= loadAnimation("01.png, 02.png,03.png,04.png,05.png,06.png,07.png,08.png,09.png,10.png"); 
+player_running= loadAnimation("01.png", "02.png","03.png","04.png","05.png","06.png","07.png","08.png","09.png","10.png"); 
+
 
 bananaImage = loadImage("star.jpg");
 obstacle_img= loadImage("obs.jpg");  
